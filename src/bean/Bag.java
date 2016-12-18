@@ -4,6 +4,14 @@ public class Bag extends Commodity {
 	private String name;
 	private String size;
 	
+//	public static void test() {
+//		System.out.println("Bag");
+//	}
+	
+//	public void test() {
+//		
+//	}
+//	
 	public String getName() {
 		return name;
 	}
