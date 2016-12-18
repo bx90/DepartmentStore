@@ -17,14 +17,13 @@ public enum Department {
 	private Department(String des) {
 		this.description = des;
 	}
-	public String getDescription() {
-		return this.description;
-	}
-	
-	
+	// Overriding methods.
 	@Override
 	public String toString() {
 		return this.name() + ": "+ this.getDescription();
+	}
+	public String getDescription() {
+		return this.description;
 	}
 	
 	// Enum can even have a Main function.
