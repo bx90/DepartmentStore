@@ -29,7 +29,7 @@ public class Commodity {
 	}
 
 	public double getPrice() {
-		return price;
+		return price * discount;
 	}
 
 	public void setPrice(double price) {

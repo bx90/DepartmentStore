@@ -6,7 +6,8 @@ public class BeanTest {
 
 	@Test
 	public void print() {
-		Bag test = new Bag();
-		Commodity c = new Commodity(1);
+		Commodity bag = new Bag(3);
+		System.out.println(bag.getPrice());
+//		Commodity c = new Commodity(1);
 	}
 }

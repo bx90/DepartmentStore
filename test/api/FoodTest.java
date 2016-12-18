@@ -8,7 +8,7 @@ import static api.Food.Drinks;
 public class FoodTest {
 	@Test
 	public void test() {
-		Food food = Drinks.Beer;
-		food = Desert.Donut;
+		Food Drink = Drinks.Beer;
+		Food desert = Desert.Donut;
 	}
 }

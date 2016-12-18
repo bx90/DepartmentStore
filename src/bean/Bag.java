@@ -4,6 +4,11 @@ public class Bag extends Commodity {
 	private String name;
 	private String size;
 	
+	Bag() {}
+	public Bag(double price) {
+		this.price = price;
+	}
+	
 //	public static void test() {
 //		System.out.println("Bag");
 //	}
@@ -12,6 +17,12 @@ public class Bag extends Commodity {
 //		
 //	}
 //	
+	
+	@Override
+	public double getPrice() {
+		return this.price;
+	}
+	
 	public String getName() {
 		return name;
 	}
