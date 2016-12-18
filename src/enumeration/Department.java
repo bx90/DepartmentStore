@@ -21,10 +21,17 @@ public enum Department {
 		return this.description;
 	}
 	
+	
+	@Override
+	public String toString() {
+		return this.name() + ": "+ this.getDescription();
+	}
+	
 	// Enum can even have a Main function.
 	public static void main(String[] args) {
 		for (Department d : Department.values()) {
-			System.out.println(d.name() + ": "+d.getDescription());
+//			System.out.println(d.name() + ": "+d.getDescription());
+			System.out.println(d);
 		}
 	}
 }
