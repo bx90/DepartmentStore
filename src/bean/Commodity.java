@@ -6,7 +6,7 @@ package bean;
  * @author Boxiong
  */
 
-public class Commodity {
+public class Commodity {	
 	static protected double discount;
 	protected double price;
 	
